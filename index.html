@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f58220' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Optimization Meta Tags -->
+    <title>Shree Skanda V — Full Stack Web Developer</title>
+    <meta name="description" content="Portfolio of Shree Skanda V, Full Stack Web Developer specializing in modern web applications, creative UI/UX designs, and AI-powered digital experiences." />
+    <meta name="keywords" content="Software Engineer, Full Stack Web Developer, React, TypeScript, Node.js, Portfolio" />
+    <meta name="author" content="Shree Skanda V" />
+    <meta name="theme-color" content="#FAF7F2" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shree Skanda V — Full Stack Web Developer" />
+    <meta property="og:description" content="Explore my projects, skills, work experience, achievements, and technical expertise." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind Play CDN for immediate visual preview -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#FAF7F2',
+              cardBg: 'rgba(255, 255, 255, 0.85)',
+              brandOrange: '#F58220',
+              accentAmber: '#F97316',
+              warmSlate: '#1C1917',
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'Poppins', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-stone-800 font-sans selection:bg-orange-500/30 selection:text-orange-950 antialiased overflow-x-hidden">
+    <div id="root"></div>
+
+    <!-- Vite Main Entry Point -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
