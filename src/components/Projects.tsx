@@ -36,7 +36,7 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
             Featured <span className="text-[#F58220]">Projects</span>
           </h2>
           <p className="text-stone-600 dark:text-slate-400 text-base max-w-2xl mx-auto font-medium">
-            Explore my featured applications listed on my resume, including ML fraud detection, Spring Boot slot management, and full-stack web platforms.
+            Explore my flagship applications featured on my resume: Machine Learning Fraud Detection and Java Spring Boot Parking Slot Manager.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
         </div>
 
         {/* Projects Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {filteredProjects.map((project) => (
             <div
               key={project.id}

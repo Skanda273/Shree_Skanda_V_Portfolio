@@ -102,7 +102,7 @@ export const projectsData: ProjectItem[] = [
     title: "Machine Learning Based Financial Fraud Detection System",
     description: "Machine Learning-based system for Credit Card, Debit Card, and UPI Fraud Detection achieving 92%+ prediction accuracy.",
     longDescription: "Integrated React.js, Node.js, Flask, and MongoDB to process 1,000+ simulated transactions for real-time fraud analysis. Implemented Random Forest, SVM, and AdaBoost models, improving fraud detection performance by 18% over baseline models.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
     category: "ai",
     technologies: ["React.js", "Node.js", "Express.js", "Python", "Flask", "MongoDB", "Random Forest", "SVM"],
     githubUrl: "https://github.com/Skanda273",
@@ -117,18 +117,6 @@ export const projectsData: ProjectItem[] = [
     image: "https://images.unsplash.com/photo-1590674899484-d5640e854abe?auto=format&fit=crop&w=1200&q=80",
     category: "fullstack",
     technologies: ["Java", "Spring Boot", "MySQL", "JavaScript", "REST APIs", "HTML5", "CSS3"],
-    githubUrl: "https://github.com/Skanda273",
-    demoUrl: "https://github.com/Skanda273",
-    featured: true
-  },
-  {
-    id: "project-3",
-    title: "Full Stack Web Applications Suite",
-    description: "Suite of responsive full-stack web applications and scalable REST APIs built with React.js, Node.js, and MongoDB.",
-    longDescription: "Developed 5+ responsive full-stack web applications and built 15+ REST APIs during Full Stack Developer internship at Prodigy Infotech, implementing CRUD operations and database integration.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-    category: "web",
-    technologies: ["React.js", "AngularJS", "Node.js", "Express.js", "MongoDB", "REST APIs"],
     githubUrl: "https://github.com/Skanda273",
     demoUrl: "https://github.com/Skanda273",
     featured: true
