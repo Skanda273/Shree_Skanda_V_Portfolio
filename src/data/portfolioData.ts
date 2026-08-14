@@ -102,7 +102,7 @@ export const projectsData: ProjectItem[] = [
     title: "Machine Learning Based Financial Fraud Detection System",
     description: "Machine Learning-based system for Credit Card, Debit Card, and UPI Fraud Detection achieving 92%+ prediction accuracy.",
     longDescription: "Integrated React.js, Node.js, Flask, and MongoDB to process 1,000+ simulated transactions for real-time fraud analysis. Implemented Random Forest, SVM, and AdaBoost models, improving fraud detection performance by 18% over baseline models.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
     category: "ai",
     technologies: ["React.js", "Node.js", "Express.js", "Python", "Flask", "MongoDB", "Random Forest", "SVM"],
     githubUrl: "https://github.com/Skanda273",
