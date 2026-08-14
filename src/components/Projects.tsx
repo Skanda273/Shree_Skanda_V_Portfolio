@@ -36,7 +36,7 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
             Featured <span className="text-[#F58220]">Projects</span>
           </h2>
           <p className="text-stone-600 dark:text-slate-400 text-base max-w-2xl mx-auto font-medium">
-            Explore my latest applications listed on my resume, including ML fraud detection, Spring Boot systems, and publishing platforms.
+            Explore my featured applications listed on my resume, including ML fraud detection, Spring Boot slot management, and full-stack web platforms.
           </p>
         </div>
 
@@ -71,6 +71,9 @@ export const Projects: React.FC<ProjectsProps> = ({ onSelectProject }) => {
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      e.currentTarget.src = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80";
+                    }}
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br from-orange-100 to-amber-50 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center">

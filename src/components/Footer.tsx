@@ -30,12 +30,6 @@ export const Footer: React.FC = () => {
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>
           </a>
-          {personalDetails.socials.aurora && (
-            <a href={personalDetails.socials.aurora} target="_blank" rel="noopener noreferrer" aria-label="Aurora" title="Aurora Publishing Platform"
-              className="p-3 rounded-full bg-orange-50 border border-orange-200 text-orange-600 hover:bg-orange-100 hover:shadow-md transition-all hover:scale-110 shadow-sm">
-              <Sparkles className="w-5 h-5" />
-            </a>
-          )}
           <a href={`https://mail.google.com/mail/?view=cm&to=${personalDetails.socials.email}`} target="_blank" rel="noopener noreferrer" aria-label="Email"
             className="p-3 rounded-full bg-white border border-stone-200/90 text-stone-600 hover:text-[#F58220] hover:border-orange-300 hover:shadow-md transition-all hover:scale-110 shadow-sm">
             <Mail className="w-5 h-5" />

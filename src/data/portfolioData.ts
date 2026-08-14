@@ -29,7 +29,6 @@ export const personalDetails: PersonalDetails = {
     github: "https://github.com/Skanda273",
     instagram: "https://www.instagram.com/skanda0503/",
     twitter: "",
-    aurora: "https://zblog-seven.vercel.app",
     email: "shreeskanda2704@gmail.com",
     phone: "+91 9019827365",
   }
@@ -103,7 +102,7 @@ export const projectsData: ProjectItem[] = [
     title: "Machine Learning Based Financial Fraud Detection System",
     description: "Machine Learning-based system for Credit Card, Debit Card, and UPI Fraud Detection achieving 92%+ prediction accuracy.",
     longDescription: "Integrated React.js, Node.js, Flask, and MongoDB to process 1,000+ simulated transactions for real-time fraud analysis. Implemented Random Forest, SVM, and AdaBoost models, improving fraud detection performance by 18% over baseline models.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
     category: "ai",
     technologies: ["React.js", "Node.js", "Express.js", "Python", "Flask", "MongoDB", "Random Forest", "SVM"],
     githubUrl: "https://github.com/Skanda273",
@@ -115,23 +114,23 @@ export const projectsData: ProjectItem[] = [
     title: "Parking Slot Manager",
     description: "Parking Slot Management System built with Java, Spring Boot, and MySQL with secure REST API integration.",
     longDescription: "Developed a robust Parking Slot Management System implementing CRUD operations, real-time slot allocation, and vehicle management. Built REST APIs with secure database integration for efficient parking management.",
-    image: "https://images.unsplash.com/photo-1506521782023-6058fda68c83?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1590674899484-d5640e854abe?auto=format&fit=crop&w=1200&q=80",
     category: "fullstack",
-    technologies: ["Java", "Spring Boot", "MySQL", "JavaScript", "HTML5", "CSS3", "REST APIs"],
+    technologies: ["Java", "Spring Boot", "MySQL", "JavaScript", "REST APIs", "HTML5", "CSS3"],
     githubUrl: "https://github.com/Skanda273",
     demoUrl: "https://github.com/Skanda273",
     featured: true
   },
   {
     id: "project-3",
-    title: "Aurora - Content & Publishing Platform",
-    description: "Modern blogging platform where imagination flows freely. Built with Next.js and deployed on Vercel.",
-    longDescription: "Aurora is a full-featured content publishing platform built with Next.js, Clerk authentication, rich article discovery, and user dashboards.",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+    title: "Full Stack Web Applications Suite",
+    description: "Suite of responsive full-stack web applications and scalable REST APIs built with React.js, Node.js, and MongoDB.",
+    longDescription: "Developed 5+ responsive full-stack web applications and built 15+ REST APIs during Full Stack Developer internship at Prodigy Infotech, implementing CRUD operations and database integration.",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     category: "web",
-    technologies: ["React.js", "Next.js", "Tailwind CSS", "Node.js"],
+    technologies: ["React.js", "AngularJS", "Node.js", "Express.js", "MongoDB", "REST APIs"],
     githubUrl: "https://github.com/Skanda273",
-    demoUrl: "https://zblog-seven.vercel.app",
+    demoUrl: "https://github.com/Skanda273",
     featured: true
   }
 ];

@@ -18,7 +18,6 @@ export interface PersonalDetails {
     phone: string;
     twitter?: string;
     instagram?: string;
-    aurora?: string;
     discord?: string;
   };
 }
